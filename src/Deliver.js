@@ -6,9 +6,10 @@ import Zoom from "react-reveal/Zoom";
 
 export default function Deliver() {
   return (
-    <Fade>
+    <Fade cascade left>
     <div className = "deliver">
     <h1 className = "deli-message">We Deliver!</h1>
+    <hr className = "delivery-line"></hr>
     <div className = "apps">
         <a href = "https://www.ubereats.com/store/sabor-mi-tierra/lLi2aK8aRDmNDtbnw2dybQ"><div className = "eats square"></div></a>
         <a href = "https://postmates.com/store/sabor-mi-tierra/lLi2aK8aRDmNDtbnw2dybQ?client=customer.web&version=3.0.0"><div className = "post square"></div></a>

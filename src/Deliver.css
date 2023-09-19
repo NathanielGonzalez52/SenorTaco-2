@@ -11,7 +11,14 @@
     align-items: center;
 }
 
+.delivery-line {
+    background-color: #000000;
+    width: 15%;
+    margin-top: -1.2rem;
+}
+
 .apps {
+    padding-top: 2rem;
     display: grid;
     /* margin: 1rem 1.5rem; */
     width: 100%;
