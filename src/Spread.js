@@ -18,7 +18,7 @@ export default function Spread() {
               img={foodItem.imgURL}
               description={foodItem.description}
           />
-        );
+        )
       })}
     </div>
   );

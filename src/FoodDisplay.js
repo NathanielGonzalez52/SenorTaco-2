@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import "./FoodDisplay.css";
 export default function FoodDisplay(props) {
 
   const [isHovered, setIsHovered] = useState(false);
