@@ -8,14 +8,15 @@ export default function FoodDisplay(props) {
       
         <div className = "image-container" onMouseEnter={() => setIsHovered(true)}
            onMouseLeave={() => setIsHovered(false)}>
+           
            <img className = "display" src={props.img} alt="burrito">
              </img>
-             {isHovered && (
+             {isHovered ? (
                  <div className="descriptor">
                    <h2>{props.name}</h2>
                    <p>{props.description}</p>
                  </div>
-                 )};
+                 ): (<div className="descriptor-gone"></div>)};
         </div>);
 
 }
