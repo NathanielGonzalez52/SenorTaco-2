@@ -4,7 +4,6 @@ import FoodDisplay from './FoodDisplay';
 import Food from "./Food.js";
 export default function Spread() {
 
-  const [isHovered, setIsHovered] = useState(false);
   return (
     <div>
       <h1>Not Sure What to Get?</h1>
@@ -19,7 +18,8 @@ export default function Spread() {
               description={foodItem.description}
           />
         )
-      })}
+      })
+      }
     </div>
-  );
+  )
 };

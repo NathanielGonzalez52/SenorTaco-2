@@ -7,8 +7,8 @@ import Menu from "./Menu";
 import Deliver from "./Deliver";
 import EmblaCarousel from "./EmblaCarousel";
 import Spread from "./Spread";
-
-
+import Map from "./Map";
+import Footer from "./Footer";
 
 import { BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 
@@ -20,6 +20,8 @@ function App() {
       <Menu />
       <EmblaCarousel />
       <Spread />
+      <Map />
+      <Footer />
     </div>
   );
 }
