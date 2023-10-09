@@ -1,3 +1,7 @@
 .menu-page {
-    width: 100%;
+    width: 65%;
+}
+
+#menu {
+    background-color: #000000;
 }

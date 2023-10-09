@@ -1,8 +1,16 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 .footer {
     background-color: #FFFFFF;
     padding-bottom: 2rem;
+    line-height: 1.0rem;
 }
 
+.head-footer {
+    color: black;
+}
 
 .logo-footer {
     padding-top: 1.2rem;
@@ -11,4 +19,6 @@
 
 .foot-txt{
     color: gray;
+    font-weight: bold;
+
 }

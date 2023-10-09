@@ -21,7 +21,7 @@ const EmblaCarousel = () => {
     <>
     <LightSpeed right>
     <div className="embla">
-    <h1>A Word from Our Satisfied Customers!</h1>
+    <h1>Some Words from Our Satisfied Customers!</h1>
     <div className="embla__viewport" ref={emblaRef}>
       <div className="embla__container">
         <div className="embla__slide"> 
