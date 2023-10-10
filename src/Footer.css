@@ -20,5 +20,11 @@ body {
 .foot-txt{
     color: gray;
     font-weight: bold;
+}
 
+
+@media screen and (min-width: 770px) {
+    .logo-footer {
+        width: 15%;
+    }
 }
