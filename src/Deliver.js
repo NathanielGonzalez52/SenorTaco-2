@@ -16,9 +16,6 @@ export default function Deliver() {
           <a href = "https://www.grubhub.com/restaurant/sabor-mi-tierra-802-w-la-palma-ave-anaheim/2562653"><div className = "grub square"></div></a>
           <a href = "https://www.doordash.com/store/sabor-mi-tierra-anaheim-1755009/"><div className = "dash square"></div></a>    
       </div>
-
-
-        
       </div>
     </Fade>
   )
